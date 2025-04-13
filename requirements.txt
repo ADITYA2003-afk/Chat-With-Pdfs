@@ -1,12 +1,14 @@
-streamlit>=1.28.0
-python-dotenv>=1.0.0
-PyPDF2>=3.0.1
-langchain>=0.1.14
-langchain-community>=0.0.10
-openai>=1.17.0
-faiss-cpu>=1.7.4
-pymupdf>=1.23.0
-Pillow>=10.2.0
-SpeechRecognition>=3.10.0
-pyttsx3>=2.90
-requests>=2.31.0
+streamlit
+python-dotenv
+PyPDF2
+langchain
+langchain-community
+openai
+faiss-cpu
+pymupdf
+Pillow
+speechrecognition
+pyttsx3
+requests
+htmlTemplates  # (if this is a custom file, no need to pip install)
+auth           # (if this is your custom module, no need to pip install)
